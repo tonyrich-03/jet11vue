@@ -32,7 +32,7 @@ const { data: todos, isLoading, error } = useQuery({
 
 const totalPages = computed(() => {
   if (!todos.value || todos.value.length === 0) return 1;
-  return Math.ceil(200 / todosPerPage); // If using an API with total count, update this.
+  return Math.ceil(200 / todosPerPage); 
 });
 
 const handlePageChange = (newPage) => {

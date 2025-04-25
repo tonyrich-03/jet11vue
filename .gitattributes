@@ -1,1 +1,18 @@
-* text=auto eol=lf
+# Auto normalize all files (Windows: CRLF on checkout, LF on commit)
+* text=auto
+
+# Explicitly use LF line endings for common text/code files
+*.js     text eol=lf
+*.ts     text eol=lf
+*.vue    text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+*.md     text eol=lf
+*.json   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.sh     text eol=lf
+*.env    text eol=lf
+.gitattributes text eol=lf
+

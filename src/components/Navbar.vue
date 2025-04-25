@@ -25,6 +25,6 @@ import router from '@/router';
   }
   </script>
 
-<style>
-/* Make sure to create this CSS file. */
+<style scoped>
+
 </style>

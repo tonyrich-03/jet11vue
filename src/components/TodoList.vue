@@ -162,11 +162,11 @@ button:focus-visible {
   .checkbox {
     cursor: pointer;
     font-size: 1em;
-    width: auto; /* Adjust for better fit */
+    width: auto; 
   }
 
   .todo-item {
-    width: 78.8vw; /* width for better spacing */
+    width: 78.8vw; 
     font-size: 18px; 
     margin-left: -50px; 
     padding: 10px 15px; 
@@ -181,7 +181,7 @@ button:focus-visible {
 
   button {
     background-color: #313aee;
-    padding: 8px 16px; /* Adjust button size */
+    padding: 8px 16px; 
     font-size: 14px;
     border-radius: 5px;
   }

@@ -9,6 +9,6 @@ const queryClient = new QueryClient();
 
 const app = createApp(App);
 
-app.use(VueQueryPlugin); // Use VueQueryPlugin
-app.use(router); // Use router
+app.use(VueQueryPlugin); // VueQueryPlugin
+app.use(router); // router
 app.mount('#app');
